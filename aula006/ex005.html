@@ -16,6 +16,15 @@
 <body>
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai os resultados</p>
-    <div>Clique aquí</div>
+    <p par1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, dolorem perferendis! Labore iusto optio reici<strong>endis tempore soluta</strong>, error ex, nihil totam quaerat nemo nobis, quidem fuga! Velit id quia consectetur!</p>
+    <div id="msg">Texto para DOM</div>
+    <script>
+        var corpo = window.document.body
+        var d = document.querySelector('div#msg')
+        d.style.background = 'black'
+
+        document.write ('Escrever:__  ' + d.innerText)
+
+    </script>
 </body>
 </html>

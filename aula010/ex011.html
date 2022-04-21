@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sua nacionalidade</h1>
+    Digite sua nacionalidade <input type="text" name="nac" id="nac">
+    <input type="button" value="Verificar" onclick="txt ()">
+    <div id="res"></div>
+
+    <script>
+        function txt () {
+            var nac = document.querySelector ('input#nac')
+            var txt = document.querySelector ('div#res')
+
+            if (txt != 'Brasil') {
+                console.log('Vc é br')
+            } else {
+                txt.innerHTML = `<p>Vc é extrangeiro</p>`
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran Exercicio</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    Velocidade do carro: <input type="number" name="vel" id="vel"> Km/h
+    <input type="button" value="Verificar" onclick="res ()">
+    <div id="txt"></div>
+
+    <script>
+        function res () {
+            var velocidade = document.querySelector ('input#vel')
+            var km = Number(vel.value)
+            var txt = document.querySelector ('div#txt')
+
+            if (km > 60) {
+                txt.innerHTML = `<p>Voce está multado</p>` }
+            else {
+                txt.innerHTML = `<p>Voce NAO está multado</p>`
+            }
+        }
+  
+    </script>
+</body>
+</html>

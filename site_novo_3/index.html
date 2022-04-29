@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercicio</title>
+    <link rel="stylesheet" href="style.css">
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Verificador de idade</h1>
+        </header>
+        <section>
+            <div>
+                Ano de nascimento:  <input type="number" name="ano" id="ano">
+                <p> Sexo:
+                    <input type="radio" name="sex" id="masculino" checked>
+                    <label for="sex">Masculino</label>
+                    <input type="radio" name="sex" id="femenino">
+                    <label for="sex">Femenino</label>
+                </p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </div>
+            <div id="resposta">Preencha os dados acima para ver o resultado</div>
+            <img id="img">
+        </section>
+        <footer>
+            <p>&copy; Darlei Strege Trechel</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

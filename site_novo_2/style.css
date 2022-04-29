@@ -3,7 +3,7 @@
 /*font-family: 'Bebas Neue', cursive;*/
 
 body {
-    background-color: rgb(100, 100, 229);
+    background-color: rgb(130, 154, 196);
     font-size: 1,2em;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -29,9 +29,6 @@ section {
     text-align: justify;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.471);
-}
-div {
-
 }
 footer p {
     color: white;

@@ -20,7 +20,7 @@ function verificar() {
             } else if (idade < 20) {
                 img.setAttribute('src', 'imagens/homem_jovem.png')
             } else if (idade < 50) {
-                img.setAttribute('src', 'imagens/homem_aulto.png')
+                img.setAttribute('src', 'imagens/homem_adulto.png')
             } else {
                 img.setAttribute('src', 'imagens/homem_idoso.png')
             }

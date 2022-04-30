@@ -30,10 +30,11 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.471);
 }
-div {
-
+section > img {
+    display: block;
+    margin: auto;
 }
 footer p {
     color: white;
-    text-align: center
+    text-align: center;
 }

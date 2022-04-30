@@ -40,6 +40,6 @@ function verificar() {
         resposta.style.textAlign = 'center'
         resposta.innerHTML = (`Detectamos ${genero} com ${idade} anos`)
         
-        }
+    }
 
 }

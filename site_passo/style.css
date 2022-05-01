@@ -30,9 +30,8 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.471);
 }
-img#img {
-    display: block;
-    margin: auto;
+div {
+    margin: 10px;
 }
 footer p {
     color: white;

@@ -15,15 +15,20 @@
             <h1>Verificador de idade</h1>
         </header>
         <section>
-            <div>
+           <div>
                 Ano de nascimento <input type="number" name="ano" id="ano">
             </div>
+
             <p>
                 Sexo: 
-                <input type="radio" name="sexo" id="masculino">
+                <input type="radio" name="sexo" id="masculino" checked>
                 <label for="sexo">Masculino</label>
-                <input type="radio" name="" id="">
+                <input type="radio" name="sexo" id="femenino">
+                <label for="sexo">Femenio</label>
             </p>
+            <input type="button" value="Verificar" onclick="verificar()">
+            <p id="resultado">Preencha os dados acima para ver o resultado</p>
+            <img id="img">
         </section>
         <footer>
             <p>&copy; Darlei Strege Trechel</p>

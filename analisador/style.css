@@ -31,10 +31,17 @@ section {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.471);
 }
 select {
-    width: 200px;
+    display: block;
+    margin: auto;
+    width: 300px;
 
 }
 footer p {
     color: white;
     text-align: center
+}
+#finalizar {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }

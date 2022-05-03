@@ -32,7 +32,8 @@ section {
 }
 select {
     width: 200px;
-
+    display: block;
+    margin: auto;
 }
 footer p {
     color: white;

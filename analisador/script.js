@@ -16,13 +16,11 @@ function nalista (n, l) {
         return true
     } else { 
         return false
-    }
-        
+    }     
 }
 
 function add() {
-    if (umnro(nro.value) && !nalista(nro.value, valores)) {
-       //window.alert ('Tudo ok') 
+    if (umnro(nro.value) && !nalista(nro.value, valores)) { 
        valores.push (Number(nro.value))
        let item = document.createElement('option')
        item.text = `Valor ${nro.value} adicionado`
@@ -34,7 +32,6 @@ function add() {
     }
     nro.value = ''
     nro.focus ()
-
 }
 
 function end(){
@@ -55,8 +52,6 @@ function end(){
             if (valores[pos] < menor)
             menor = valores[pos]
         }
-
-
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo temos ${total} números cadastrados.</p>`
         res.innerHTML += `<p>O maior valor informado foi ${maior}.</p>`

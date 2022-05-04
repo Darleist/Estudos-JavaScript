@@ -30,8 +30,15 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.471);
 }
-div {
-
+.lista {
+    display: block;
+    margin: auto;
+}
+select {
+    width: 400px;
+}
+option {
+    text-align: center;
 }
 footer p {
     color: white;

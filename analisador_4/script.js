@@ -10,7 +10,6 @@ function nrovalido (n) {
         return false
     }
 }
-
 function nalista (n, l) {
     if (l.indexOf(Number(n)) != -1) {
         return true
@@ -18,7 +17,6 @@ function nalista (n, l) {
         return false
     }
 } 
-
 function add () {
     if (nrovalido(nro.value) && !nalista(nro.value, valores)) {
         valores.push (Number(nro.value))

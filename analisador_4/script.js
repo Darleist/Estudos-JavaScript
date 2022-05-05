@@ -47,13 +47,11 @@ function end(){
             if (menor > valores[pos])
             menor = valores [pos]
         }
-        
-    let media = soma / total
-    
-    res.innerHTML += `<p>O total de números é ${total} </p>`
-    res.innerHTML += `<p>O número maior é ${maior} </p>`
-    res.innerHTML += `<p>O número menor é ${menor} </p>`
-    res.innerHTML += `<p>A media dos números é ${media} </p>`
-    res.innerHTML += `<p>A soma dos números é ${soma} </p>`
+        let media = soma / total
+        res.innerHTML += `<p>O total de números é ${total} </p>`
+        res.innerHTML += `<p>O número maior é ${maior} </p>`
+        res.innerHTML += `<p>O número menor é ${menor} </p>`
+        res.innerHTML += `<p>A media dos números é ${media} </p>`
+        res.innerHTML += `<p>A soma dos números é ${soma} </p>`
 }
 }
